@@ -2,7 +2,7 @@
 
 namespace MoniRos\LibTSC;
 
-class HelloThere
+class GetData
 {
     public function dummyFunction()
     {
