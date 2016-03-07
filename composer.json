@@ -10,6 +10,11 @@
         "psr-0" : {
             "MoniRos\\LibTSC" : "src"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
     }
 }
 
