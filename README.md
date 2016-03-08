@@ -27,6 +27,6 @@ $jsonData = $card->getCardInformation();
 ```
 
 ## How it works?
-Basically the lib takes the userId/cardId, encrypts the information using the TSC "super secret key" :P ('0p-rac1on3sT$C.G0dz1ll@') and process a POST request to TSC Server (kind of API, http://190.216.78.10/operacionestsc/ServiceTSC.asmx/ObtenerOperaciones).
+Basically the lib takes the userId/cardId, encrypts the information using the TSC "super secret key" :P ('0p-rac1on3sT$C.G0dz1ll@') and process a POST request to TSC Server (190.216.78.10/operacionestsc/ServiceTSC.asmx/ObtenerOperaciones).
 In short terms, as a personal challenge I managed to port js code found on the TSC application apk to PHP.
 
